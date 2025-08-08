@@ -1,2 +1,20 @@
-# Voice-Cloner-
-Voice Cloner is a Python module that clones a speaker’s voice using a short reference audio sample. It generates natural-sounding speech from custom text in the same voice using multilingual TTS models. The output is returned in memory for efficient and flexible integration.
+# 🔊 Voice Cloner
+
+**Voice Cloner** is a lightweight Python module designed to clone a speaker’s voice from a short reference audio sample and generate natural-sounding speech from custom text input.
+
+---
+
+## ✨ Features
+
+- Clone voice from a short audio sample (`.wav` / `.mp3`)
+- Generate custom speech in the cloned voice
+- Uses pre-trained multilingual TTS models
+- Returns audio as an in-memory stream (`BytesIO`) – no file writes required
+
+---
+
+## 📦 Installation
+
+```bash
+pip install TTS soundfile
+
